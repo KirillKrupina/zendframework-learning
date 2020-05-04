@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c3f92c9-2abd-4640-954a-33339c155d39" name="Default Changelist" comment="" />
+    <list default="true" id="9c3f92c9-2abd-4640-954a-33339c155d39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.zfproject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.zfproject.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/ArticlesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/NewsController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,13 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/library/vendor/zendframework/zendframework1" />
@@ -20,6 +35,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1bRBM92xFrjZOztezNw7DAlB2tI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,14 +45,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/scripts/articles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts\articles" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588584976295</updated>
-      <workItem from="1588584981260" duration="2734000" />
+      <workItem from="1588584981260" duration="6078000" />
     </task>
     <servers />
   </component>
@@ -62,13 +87,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1588585029709" />
-    <state x="220" y="335" key="NewPhpFileDialog" timestamp="1588600144917">
+    <state x="220" y="335" key="NewPhpFileDialog" timestamp="1588613641009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="220" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588600144917" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1588585038429">
+    <state x="220" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588613641009" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1588600787867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588585038429" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588600787867" />
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588600516028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588600516028" />
   </component>
 </project>

@@ -3,9 +3,6 @@
 class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 {
 
-    protected function _initMyFunction() {
-        echo 'from Bootstrap/initMyFunction';
-    }
 
 }
 

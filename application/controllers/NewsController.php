@@ -13,6 +13,13 @@ class NewsController extends Zend_Controller_Action
         // action body
     }
 
+    public function viewFullNewsAction()
+    {
+        // action body
+    }
+
 
 }
+
+
 
