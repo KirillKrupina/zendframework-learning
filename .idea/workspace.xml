@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3f92c9-2abd-4640-954a-33339c155d39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.zfproject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.zfproject.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/ArticlesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/NewsController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588584976295</updated>
-      <workItem from="1588584981260" duration="6078000" />
+      <workItem from="1588584981260" duration="7387000" />
     </task>
     <servers />
   </component>

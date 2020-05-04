@@ -16,6 +16,9 @@
           <actionMethod actionName="index"/>
           <actionMethod actionName="viewFullNews"/>
         </controllerFile>
+        <controllerFile controllerName="Users">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory enabled="false"/>
@@ -24,6 +27,7 @@
         <dbTableDirectory>
           <dbTableFile dbTableName="News"/>
         </dbTableDirectory>
+        <modelFile modelName="Users"/>
       </modelsDirectory>
       <modulesDirectory enabled="false"/>
       <viewsDirectory>
@@ -39,6 +43,9 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="News">
             <viewScriptFile forActionName="viewFullNews"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Users">
+            <viewScriptFile forActionName="index"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>
@@ -75,6 +82,7 @@
         <testApplicationBootstrapFile filesystemName="bootstrap.php"/>
         <testApplicationControllerDirectory>
           <testApplicationControllerFile filesystemName="NewsControllerTest.php"/>
+          <testApplicationControllerFile filesystemName="UsersControllerTest.php"/>
         </testApplicationControllerDirectory>
       </testApplicationDirectory>
       <testLibraryDirectory>
