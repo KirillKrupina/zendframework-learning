@@ -23,7 +23,8 @@ class PostsController extends Zend_Controller_Action
         // $data = $postsModel->fetchAll(null, null, 5, 2)->toArray();
 
         //$this->view->posts = $postsModel->getSqlSafe();
-        $this->view->posts = $postsModel->countPosts();
+        //$this->view->posts = $postsModel->countPosts();
+        $this->view->posts = $postsModel->joinTables();
     }
 
 

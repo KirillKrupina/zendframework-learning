@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9c3f92c9-2abd-4640-954a-33339c155d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.zfproject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.zfproject.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/configs/application.ini" beforeDir="false" afterPath="$PROJECT_DIR$/application/configs/application.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/DbTable/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/DbTable/Posts.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588584976295</updated>
       <workItem from="1588584981260" duration="8178000" />
-      <workItem from="1588752853706" duration="4004000" />
+      <workItem from="1588752853706" duration="5304000" />
     </task>
     <servers />
   </component>

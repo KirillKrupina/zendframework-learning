@@ -23,5 +23,14 @@ class Application_Model_DbTable_Posts extends Zend_Db_Table_Abstract
         return $this->fetchRow($query)->number;
     }
 
+    public function joinTables() {
+        $query = $this->select()
+                        ->setIntegrityCheck(false)
+                        ->from(array('p'=> 'posts'), array('p.text'))
+                        ->join(array('c' => 'comments'),'p.id = c.post_id', array('c.id AS comment_id', 'c.comments', 'c.post_id'));
+
+        return $this->fetchAll($query)->toArray();
+    }
+
 }
 
