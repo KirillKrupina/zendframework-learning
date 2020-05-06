@@ -32,5 +32,10 @@ class Application_Model_DbTable_Posts extends Zend_Db_Table_Abstract
         return $this->fetchAll($query)->toArray();
     }
 
+    public function insertNewPost(array $data) {
+        $this->insert($data);
+
+        return $this->getDefaultAdapter()->lastInsertId();
+    }
 }
 

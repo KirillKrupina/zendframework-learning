@@ -24,6 +24,14 @@ class PostsController extends Zend_Controller_Action
 
         //$this->view->posts = $postsModel->getSqlSafe();
         //$this->view->posts = $postsModel->countPosts();
+
+        $newPost = array(
+            'text' => 'New Lorem Ipsum'
+        );
+
+        $lastId = $postsModel->insertNewPost($newPost);
+        $this->view->lastId = $lastId;
+
         $this->view->posts = $postsModel->joinTables();
     }
 
