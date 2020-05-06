@@ -25,5 +25,13 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 //
 //    }
 
+    protected function _initLog()
+    {
+        $log = new Zend_Log();
+        $log->addWriter(new Zend_Log_Writer_Stream(array(
+            'stream' => APPLICATION_PATH . '/../data/logs/production.log'
+        )));
+    }
+
 }
 

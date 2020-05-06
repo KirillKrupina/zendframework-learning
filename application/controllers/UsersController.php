@@ -12,9 +12,29 @@ class UsersController extends Zend_Controller_Action
         $this->usersModel = new Application_Model_DbTable_Users();
     }
 
-    public function indexAction()
+    public function listAction()
     {
-       $this->view->users = $this->usersModel->getAllUsers();
+       $this->_helper->layout()->disableLayout();
+        $this->_helper->viewRenderer->setNoRender(true);
+
+        $id_param = $this->getRequest()->getParam('id');
+        $fullname_param = $this->getRequest()->getParam('fullname');
+
+        if (!empty($id_param)) {
+            $this->usersModel->whereUserId($id_param);
+        }
+        $users = $this->usersModel->getAllUsers();
+        return $this->_helper->json->sendJson(array(
+            'success' => true,
+            'rows' => $users,
+            'count' => sizeof($users),
+            'params' => $id_param
+        ));
+
+
+//        $jsonString = json_encode($jsonArray);
+//        echo $jsonString;
+      // $this->view->users = $this->usersModel->getAllUsers();
     }
 
 

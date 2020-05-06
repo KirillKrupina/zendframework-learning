@@ -9,6 +9,10 @@ class Application_Model_DbTable_Users extends Zend_Db_Table_Abstract
         return $this->fetchAll()->toArray();
     }
 
+    public function whereUserId($id){
+        return $this->select()->where('id = :id')->bind(array('id'=> $id));
+    }
+
     public function addUser(array $data) {
         $this->insert($data);
         return $this->getDefaultAdapter()->lastInsertId();
