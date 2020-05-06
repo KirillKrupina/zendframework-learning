@@ -32,6 +32,11 @@ class PostsController extends Zend_Controller_Action
         $lastId = $postsModel->insertNewPost($newPost);
         $this->view->lastId = $lastId;
 
+        $updatePost = array(
+            'text' => 'Updated text'
+        );
+        $postsModel->updatePostById($updatePost, 1);
+
         $this->view->posts = $postsModel->joinTables();
     }
 

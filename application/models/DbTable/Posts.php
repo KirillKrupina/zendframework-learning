@@ -37,5 +37,15 @@ class Application_Model_DbTable_Posts extends Zend_Db_Table_Abstract
 
         return $this->getDefaultAdapter()->lastInsertId();
     }
+
+    public function updatePostById(array $data, $id){
+
+        // Нужно сохранить запрос от SQL инъекций. Для это нужно вызвать метод "quoteIntro", чтоб отфильтровать и обработать отдельную переменную
+        $where = $this->getDefaultAdapter()->quoteInto('id = ?', $id); // возвращает уже обработанную строку...
+        // $where .= " AND ";
+        // $where .= $this->getDefaultAdapter()->quoteInto('active = ?', 1);
+
+        $this->update($data, $where);
+    }
 }
 
