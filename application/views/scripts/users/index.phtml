@@ -1,9 +1,7 @@
 <?php foreach ($this->users as $user): ?>
-
 <p>
-    <?
-        echo "ID => {$user['id']}, Login => {$user['login']}, Email => {$user['email']}"
-    ?>
+    <? echo $user['id']; ?>.
+    <strong><? echo $user['fullname'] ?></strong> -
+    <em><? echo $user['email'] ?></em>
 </p>
-
-<?php endforeach ?>
+<?php endforeach;?>

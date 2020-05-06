@@ -30,6 +30,7 @@
         <dbTableDirectory>
           <dbTableFile dbTableName="News"/>
           <dbTableFile dbTableName="Posts"/>
+          <dbTableFile dbTableName="Users"/>
         </dbTableDirectory>
         <modelFile modelName="Users"/>
       </modelsDirectory>

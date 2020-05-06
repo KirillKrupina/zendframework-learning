@@ -52,5 +52,11 @@ class Application_Model_DbTable_Posts extends Zend_Db_Table_Abstract
         $where = $this->getDefaultAdapter()->quoteInto('id = ?', $id);
         $this->delete($where);
     }
+
+    public function myQuery() {
+        $this->getDefaultAdapter()->query("ALTER TABLE posts ADD date TIMESTAMP");
+    }
+
+
 }
 
