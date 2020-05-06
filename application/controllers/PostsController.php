@@ -37,6 +37,8 @@ class PostsController extends Zend_Controller_Action
         );
         $postsModel->updatePostById($updatePost, 1);
 
+        $postsModel->deletePostById(18);
+
         $this->view->posts = $postsModel->joinTables();
     }
 

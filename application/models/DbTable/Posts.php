@@ -26,8 +26,8 @@ class Application_Model_DbTable_Posts extends Zend_Db_Table_Abstract
     public function joinTables() {
         $query = $this->select()
                         ->setIntegrityCheck(false)
-                        ->from(array('p'=> 'posts'), array('p.text'))
-                        ->join(array('c' => 'comments'),'p.id = c.post_id', array('c.id AS comment_id', 'c.comments', 'c.post_id'));
+                        ->from(array('p'=> 'posts'), array('p.id','p.text'))
+                        ->joinLeft(array('c' => 'comments'),'p.id = c.post_id', array('c.id AS comment_id', 'c.comments', 'c.post_id'));
 
         return $this->fetchAll($query)->toArray();
     }
@@ -46,6 +46,11 @@ class Application_Model_DbTable_Posts extends Zend_Db_Table_Abstract
         // $where .= $this->getDefaultAdapter()->quoteInto('active = ?', 1);
 
         $this->update($data, $where);
+    }
+
+    public function deletePostById($id) {
+        $where = $this->getDefaultAdapter()->quoteInto('id = ?', $id);
+        $this->delete($where);
     }
 }
 
