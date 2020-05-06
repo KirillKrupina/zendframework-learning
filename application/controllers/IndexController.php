@@ -10,10 +10,7 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
 
-        $newsModel = new Application_Model_News();
-        print_r($newsModel->getData());
     }
 
 
