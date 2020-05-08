@@ -33,5 +33,20 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         )));
     }
 
+    protected function _initView() {
+        $this->bootstrap('layout');
+        $layout = $this->getResource('layout');
+        $view = $layout->getView();
+
+        $view->doctype('XHTML1_TRANSITIONAL');
+
+        // setSeparator() - между общим названием сайта и названием страницы будет ставить разделитель
+        $view->headTitle('ZF TEST')->setSeparator(' - ');
+
+        $view->headMeta()->appendHttpEquiv('Content-Type', 'text/html; charset=UTF-8')
+                         ->appendName('author', 'Author`s Name');
+
+        $view->headLink()->appendStylesheet('/css/main.css');
+    }
 }
 
