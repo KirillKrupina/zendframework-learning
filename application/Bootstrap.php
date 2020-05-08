@@ -50,5 +50,13 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 
         $view->headScript()->appendFile('/public/vendor/jquery/jquery-3.3.1.min.js');
     }
+
+    protected function _initHelpers() {
+        $this->bootstrap('layout');
+        $layout = $this->getResource('layout');
+        $view = $layout->getView();
+
+//         $view->addHelperPath(APPLICATION_PATH . '/views/helpers/', 'Application_View_Helper');
+    }
 }
 
