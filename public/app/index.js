@@ -43,12 +43,14 @@ App.Window = Ext.extend(Ext.Window, {
                         root: 'rows',
                         fields: ['id', 'fullname', 'email'],
                         listeners: {
-                            beforeLoad(store){
+                            beforeload: function (store) {
+                                console.log('beforeload');
                                 store.setBaseParam('params', 'value');
-                                var filter = formPanel.getForm().getValues();
-                                for (key in filter) {
+                                let filter = formPanel.getForm().getValues();
+                                for (let key in filter) {
                                     store.setBaseParam(key, filter[key]);
                                 }
+
                             }
                         }
                     }),
@@ -81,6 +83,7 @@ App.Window = Ext.extend(Ext.Window, {
                     scope: this,
                     handler: function () {
                         formPanel.getComponent('gridUsers').getStore().reload();
+                        console.log('Store reloaded');
                     }
                 },
                 {

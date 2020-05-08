@@ -14,22 +14,33 @@ class UsersController extends Zend_Controller_Action
 
     public function listAction()
     {
-       $this->_helper->layout()->disableLayout();
+        //$profiler = $this->usersModel->getDefaultAdapter()->getProfiler()->setEnabled(true);
+        $this->_helper->layout()->disableLayout();
         $this->_helper->viewRenderer->setNoRender(true);
 
         $id_param = $this->getRequest()->getParam('id');
         $fullname_param = $this->getRequest()->getParam('fullname');
 
-        if (!empty($id_param)) {
+        if ($id_param != null) {
             $this->usersModel->whereUserId($id_param);
         }
-        $users = $this->usersModel->getAllUsers();
+        if ($fullname_param != null) {
+            $this->usersModel->whereFullnameLike($fullname_param);
+        }
+
+        $users = $this->usersModel->fetchAll();
+
         return $this->_helper->json->sendJson(array(
             'success' => true,
             'rows' => $users,
             'count' => sizeof($users),
-            'params' => $id_param
+            'params' => array(
+                'id' => $id_param,
+                'fullname' => $fullname_param
+            )
         ));
+
+
 
 
 //        $jsonString = json_encode($jsonArray);
