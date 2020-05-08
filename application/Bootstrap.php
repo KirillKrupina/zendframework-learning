@@ -46,7 +46,9 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $view->headMeta()->appendHttpEquiv('Content-Type', 'text/html; charset=UTF-8')
                          ->appendName('author', 'Author`s Name');
 
-        $view->headLink()->appendStylesheet('/css/main.css');
+        $view->headLink()->appendStylesheet('/public/css/main.css');
+
+        $view->headScript()->appendFile('/public/vendor/jquery/jquery-3.3.1.min.js');
     }
 }
 

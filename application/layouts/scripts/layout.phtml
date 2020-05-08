@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
 
-
     <? echo $this->headTitle(); ?>
     <? echo $this->headMeta(); ?>
     <? echo $this->headLink(); ?>
+    <? echo $this->headScript(); ?>
 
 </head>
 <body>
+
+<? echo $this->render('advertising/advertising.phtml')?>
 <?php echo $this->layout()->content; ?>
+
 </body>
+
 </html>
 

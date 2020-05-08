@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3f92c9-2abd-4640-954a-33339c155d39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zfdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zfdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zfdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zfdb: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -90,12 +107,14 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\public\vendor" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\public\vendor" />
       <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts\articles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts\advertising" />
+      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts" />
+      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\public\vendor" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -112,7 +131,9 @@
       <workItem from="1588752853706" duration="17130000" />
       <workItem from="1588776544351" duration="12130000" />
       <workItem from="1588866782751" duration="14992000" />
-      <workItem from="1588929270672" duration="4434000" />
+      <workItem from="1588929270672" duration="4804000" />
+      <workItem from="1588942280247" duration="237000" />
+      <workItem from="1588950485567" duration="2255000" />
     </task>
     <servers />
   </component>
@@ -153,10 +174,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1588769310942" />
-    <state x="0" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588874585290">
+    <state x="0" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588950882267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588874585290" />
+    <state x="0" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588950882267" />
     <state x="524" y="29" key="#xdebugger.evaluate" timestamp="1588871771145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -165,58 +186,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="516" height="618" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1588882096700" />
-    <state width="723" height="145" key="GridCell.Tab.0.bottom" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.0.bottom" timestamp="1588942233289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.0.center" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588942233289" />
+    <state width="723" height="145" key="GridCell.Tab.0.center" timestamp="1588942233288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.0.left" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588942233288" />
+    <state width="723" height="145" key="GridCell.Tab.0.left" timestamp="1588942233287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.0.right" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588942233287" />
+    <state width="723" height="145" key="GridCell.Tab.0.right" timestamp="1588942233289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.1.bottom" timestamp="1588936023352">
+    <state width="723" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588942233289" />
+    <state width="723" height="145" key="GridCell.Tab.1.bottom" timestamp="1588942233290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588936023352" />
-    <state width="723" height="145" key="GridCell.Tab.1.center" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588942233290" />
+    <state width="723" height="145" key="GridCell.Tab.1.center" timestamp="1588942233289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.1.left" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588942233289" />
+    <state width="723" height="145" key="GridCell.Tab.1.left" timestamp="1588942233289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.1.right" timestamp="1588936023351">
+    <state width="723" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588942233289" />
+    <state width="723" height="145" key="GridCell.Tab.1.right" timestamp="1588942233289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588936023351" />
-    <state width="723" height="145" key="GridCell.Tab.2.bottom" timestamp="1588936023352">
+    <state width="723" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588942233289" />
+    <state width="723" height="145" key="GridCell.Tab.2.bottom" timestamp="1588942233291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588936023352" />
-    <state width="723" height="145" key="GridCell.Tab.2.center" timestamp="1588936023352">
+    <state width="723" height="145" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588942233291" />
+    <state width="723" height="145" key="GridCell.Tab.2.center" timestamp="1588942233290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588936023352" />
-    <state width="723" height="145" key="GridCell.Tab.2.left" timestamp="1588936023352">
+    <state width="723" height="145" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588942233290" />
+    <state width="723" height="145" key="GridCell.Tab.2.left" timestamp="1588942233290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588936023352" />
-    <state width="723" height="145" key="GridCell.Tab.2.right" timestamp="1588936023352">
+    <state width="723" height="145" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588942233290" />
+    <state width="723" height="145" key="GridCell.Tab.2.right" timestamp="1588942233290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="145" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588936023352" />
-    <state x="220" y="335" key="NewPhpFileDialog" timestamp="1588616309461">
+    <state width="723" height="145" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588942233290" />
+    <state width="189" height="539" key="HiddenNamespacesPopup" timestamp="1588950655846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="220" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588616309461" />
+    <state width="189" height="539" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1588950655846" />
+    <state x="220" y="335" key="NewPhpFileDialog" timestamp="1588951882361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="220" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588951882361" />
     <state x="100" y="88" key="SettingsEditor" timestamp="1588869004142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
