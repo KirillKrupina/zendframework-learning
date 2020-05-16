@@ -3,7 +3,7 @@ Ext.ns('App.Window');
 
 App.Window = Ext.extend(Ext.Window, {
     layout: 'fit',
-    width: 400,
+    width: 750,
     height: 400,
     constructor: function (cfg) {
         cfg = Ext.applyIf(cfg, {
@@ -32,7 +32,18 @@ App.Window = Ext.extend(Ext.Window, {
                     xtype: 'textfield',
                     name: 'fullname'
                 },
-
+                {
+                    // date field
+                    xtype: 'datefield',
+                    name: 'date'
+                },
+                {
+                    // number field
+                    xtype: 'numberfield',
+                    name: 'number',
+                    minValue: 1,
+                    maxValue: 99
+                },
                 {
                     xtype: 'grid',
                     itemId: 'gridUsers',
@@ -41,11 +52,10 @@ App.Window = Ext.extend(Ext.Window, {
                         url: 'users/list',
                         autoLoad: true,
                         root: 'rows',
-                        fields: ['id', 'fullname', 'email'],
+                        fields: ['id', 'fullname', 'email', 'birthday', 'number'],
                         listeners: {
                             beforeload: function (store) {
                                 console.log('beforeload');
-                                store.setBaseParam('params', 'value');
                                 let filter = formPanel.getForm().getValues();
                                 for (let key in filter) {
                                     store.setBaseParam(key, filter[key]);
@@ -72,7 +82,20 @@ App.Window = Ext.extend(Ext.Window, {
                             header: 'email',
                             width: 200,
                             sortable: true,
-                        }
+                        },
+                        {
+                            id: 'birthday',
+                            header: 'birthday',
+                            width: 200,
+                            sortable: true,
+                        },
+                        {
+                            id: 'number',
+                            header: 'number',
+                            width: 50,
+                            sortable: true,
+                        },
+
                     ]
                 }
             ],

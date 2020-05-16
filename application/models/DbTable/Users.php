@@ -48,6 +48,21 @@ class Application_Model_DbTable_Users
         return $this;
     }
 
+    public function whereBirthdayLike($birthday) {
+        // changing format from 'm/d/Y' to 'Y-m-d'
+        $birthday = date('Y-m-d', strtotime($birthday));
+
+        $this->getSelect()->where('birthday like :birthdayLikeParam');
+        $this->params['birthdayLikeParam'] = $birthday;
+        return $this;
+    }
+
+    public function whereUserNumber($number) {
+        $this->getSelect()->where('number = :number_param');
+        $this->params['number_param'] = $number;
+        return $this;
+    }
+
     public function addUser(array $data) {
         $this->insert($data);
         return $this->getDefaultAdapter()->lastInsertId();

@@ -2,3 +2,11 @@
 <?php $this->headTitle('Main page', 'PREPEND');
       $this->headMeta()->appendName('keywords', 'ZF, PHP')
                        ->appendName('description', 'ZF learn');
+      ?>
+
+<?php
+   $url = $this->url(array('controller' => 'index', 'action' => 'index', 'a' => 333), 'default');
+?>
+<a href="<? echo $url?>">Category</a>
+
+<p><? echo $this->a ?></p>

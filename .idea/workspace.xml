@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3f92c9-2abd-4640-954a-33339c155d39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zf-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zf-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/configs/application.ini" beforeDir="false" afterPath="$PROJECT_DIR$/application/configs/application.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/DbTable/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/DbTable/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +66,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" xdebug_show_addresses="true" listening_started="true" />
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
   <component name="PhpServers">
     <servers>
       <server host="zf-test" id="bf46f33b-961e-43bb-9688-8e8570163eb4" name="zf-test" />
       <server host="127.0.0.1" id="04ed5c8b-786e-491d-b0e3-913abd822fd6" name="127.0.0.1" use_path_mappings="true">
         <path_mappings>
           <mapping local-root="$PROJECT_DIR$/public" remote-root="C:/Users/KioRling/Downloads/OSPanel/modules/system/html/openserver/phpmyadmin" />
+        </path_mappings>
+      </server>
+      <server host="zf-modules-test" id="c5b37df5-a6b6-4609-889b-9197605c6293" name="zf-modules-test" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="C:/Users/KioRling/Downloads/OSPanel/domains/zf-modules-test/public" />
         </path_mappings>
       </server>
     </servers>
@@ -78,6 +89,10 @@
     <include_path>
       <path value="$PROJECT_DIR$/library/vendor/zendframework/zendframework1" />
       <path value="$PROJECT_DIR$/library/vendor/composer" />
+      <path value="$PROJECT_DIR$/library/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/library/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/library/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/library/vendor/psr/simple-cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1bRBM92xFrjZOztezNw7DAlB2tI" />
@@ -95,7 +110,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -106,14 +121,14 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\public\vendor" />
-      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts\articles" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts\advertising" />
       <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts" />
       <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\public\vendor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\public\vendor" />
+      <recent name="C:\Users\KioRling\Downloads\OSPanel\domains\zf-test\application\views\scripts\articles" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -132,7 +147,15 @@
       <workItem from="1588866782751" duration="14992000" />
       <workItem from="1588929270672" duration="4804000" />
       <workItem from="1588942280247" duration="237000" />
-      <workItem from="1588950485567" duration="7637000" />
+      <workItem from="1588950485567" duration="10178000" />
+      <workItem from="1588963850553" duration="1112000" />
+      <workItem from="1589279113926" duration="337000" />
+      <workItem from="1589279651302" duration="2076000" />
+      <workItem from="1589296623215" duration="6669000" />
+      <workItem from="1589312204077" duration="974000" />
+      <workItem from="1589475671385" duration="3000" />
+      <workItem from="1589534490150" duration="133000" />
+      <workItem from="1589628975210" duration="3386000" />
     </task>
     <servers />
   </component>
@@ -181,58 +204,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="29" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588871771145" />
-    <state width="795" height="618" key="DebuggerActiveHint" timestamp="1588959018371">
+    <state width="795" height="618" key="DebuggerActiveHint" timestamp="1588964266122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="795" height="618" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1588959018371" />
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1588959718823">
+    <state width="795" height="618" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1588964266122" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589534620634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1588959718823">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589534620634" />
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.1.bottom" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.1.center" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.1.bottom" timestamp="1589632909988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.1.left" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589632909988" />
+    <state width="1493" height="215" key="GridCell.Tab.1.center" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.1.right" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.1.left" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.2.bottom" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.1.right" timestamp="1589632909987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.2.center" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589632909987" />
+    <state width="1493" height="215" key="GridCell.Tab.2.bottom" timestamp="1589632909988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.2.left" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589632909988" />
+    <state width="1493" height="215" key="GridCell.Tab.2.center" timestamp="1589632909988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
-    <state width="1493" height="291" key="GridCell.Tab.2.right" timestamp="1588959718823">
+    <state width="1493" height="215" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1589632909988" />
+    <state width="1493" height="215" key="GridCell.Tab.2.left" timestamp="1589632909988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588959718823" />
+    <state width="1493" height="215" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1589632909988" />
+    <state width="1493" height="215" key="GridCell.Tab.2.right" timestamp="1589632909988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1589632909988" />
     <state width="189" height="539" key="HiddenNamespacesPopup" timestamp="1588950655846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -241,6 +268,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="220" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588954917846" />
+    <state x="0" y="0" key="PhpDebugProjectChooserDialog" timestamp="1589279867781">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="PhpDebugProjectChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1589279867781" />
     <state x="100" y="88" key="SettingsEditor" timestamp="1588957444257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,9 +297,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml</url>
-          <line>13</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/application/models/DbTable/Users.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

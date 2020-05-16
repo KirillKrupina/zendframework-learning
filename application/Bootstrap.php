@@ -56,7 +56,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $layout = $this->getResource('layout');
         $view = $layout->getView();
 
-//         $view->addHelperPath(APPLICATION_PATH . '/views/helpers/', 'Application_View_Helper');
+         $view->addHelperPath(APPLICATION_PATH . '/views/helpers/', 'Application_View_Helper');
     }
 }
 
